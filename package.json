@@ -1,0 +1,22 @@
+{
+  "name": "lcarsmon",
+  "version": "1.0.0",
+  "description": "Monitoring Tool that looks like Star Trek",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "lite": "lite-server",
+    "start": "npm run watch:all"
+  },
+  "author": "Lee Henkel",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.11.0",
+    "onchange": "^5.2.0",
+    "parallelshell": "^3.0.1"
+  }
+}
