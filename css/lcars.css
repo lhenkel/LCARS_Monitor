@@ -1,3 +1,47 @@
+.tasks-bg {
+  background-color: #9cf !important;
+  text-align: left;
+  vertical-align: middle;
+  align-items: unset !important;
+  text-align: unset !important;
+  padding-left: 0px;
+  padding-top: 6px; }
+
+#tasks > .hollow {
+  border-color: #9cf; }
+
+.meeting {
+  text-align: left;
+  vertical-align: middle;
+  align-items: unset !important;
+  text-align: unset !important;
+  padding-left: 0px;
+  padding-top: 6px; }
+
+.today-meeting {
+  background-color: #c9c !important; }
+
+.today-meeting {
+  background-color: #ff9 !important; }
+
+.server {
+  width: 50%;
+  margin: auto;
+  height: 1.9em;
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 10px; }
+
+.server-bad {
+  background-color: #c9c !important; }
+
+.server-good {
+  background-color: #36c !important; }
+
 .lcars-gray-bg {
   background-color: rgba(34, 51, 85, 0.467) !important; }
 
